@@ -5,6 +5,10 @@ import {
   shareSocialOutline,
 } from "ionicons/icons";
 
+import user1 from "./assets/images/user1.jpg";
+
+import "./Post.css";
+
 interface Props {
   postBody: string;
 }
@@ -14,12 +18,7 @@ function Post({ postBody }: Props) {
     <div className="full">
       <div className="post-body">
         <div className="prof-pic">
-          <img
-            className="user"
-            src="../images/user1.jpg"
-            width="50"
-            height="50"
-          />
+          <img className="user" src={user1} width="50" height="50" />
         </div>
         <div className="post-text">
           <div className="user-handles">

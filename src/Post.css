@@ -1,0 +1,110 @@
+.full {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.001px solid #343a40;
+}
+
+.post-body {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  /* background-color: red; */
+}
+
+.comment-body {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 1.5rem;
+  padding-top: 0.3rem;
+  padding-bottom: 3rem;
+  /* background-color: blue; */
+}
+
+.post-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 300;
+  width: 100%;
+}
+
+.vertical {
+  margin-top: 3.8rem;
+  rotate: 90deg;
+  border: 2px solid #343a40;
+  width: 110%;
+}
+
+.vertical3 {
+  margin-top: 2.7rem;
+  rotate: 90deg;
+  border: 2px solid #343a40;
+  width: 80%;
+}
+
+.prof-pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-handles {
+  display: flex;
+  /* gap: 1.6rem; */
+  align-items: center;
+  justify-content: space-between;
+}
+
+.names {
+  display: flex;
+  align-items: center;
+}
+
+.heart {
+  fill: #ff5757;
+  transition: all 1s;
+}
+
+.heart:hover {
+  cursor: pointer;
+}
+
+.heart-container {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  /* background-color: red; */
+}
+
+.gray {
+  color: #6f7781;
+}
+
+.username-post {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.post-body ion-icon {
+  height: 1.9rem;
+  width: 1.7rem;
+}
+
+.comment-body ion-icon {
+  height: 1.9rem;
+  width: 1.7rem;
+}
+
+.user-post-text {
+  line-height: 2rem;
+}
+
+.post-icons {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+  padding-top: 1.5rem;
+}

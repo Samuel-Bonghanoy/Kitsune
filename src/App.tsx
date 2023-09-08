@@ -6,7 +6,7 @@ import PostList from "./PostList";
 import "./App.css";
 
 function App() {
-  const [posts, setPosts] = useState<Array<string>>([]);
+  const [posts, setPosts] = useState<Array<string>>(["I hate JavaScript"]);
 
   return (
     <>
