@@ -5,7 +5,7 @@ import user1 from "./assets/images/user1.jpg";
 
 import "./PostInput.css";
 
-function PostInput() {
+function PostInput({ onPost }) {
   return (
     <div className="posting">
       <div className="posting-top">
@@ -30,7 +30,9 @@ function PostInput() {
               <IonIcon icon={chevronDownOutline} />
             </div>
 
-            <button className="post-btn">Post</button>
+            <button className="post-btn" onClick={onPost}>
+              Post
+            </button>
           </div>
         </div>
       </div>

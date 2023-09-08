@@ -1,11 +1,12 @@
-// import { useState } from "react";
+import { useState } from "react";
 import Navbar from "./Navbar";
 import MainHeader from "./MainHeader";
 import PostInput from "./PostInput";
+import PostList from "./PostList";
 import "./App.css";
 
 function App() {
-  // const [count, setCount] = useState(0);
+  const [posts, setPosts] = useState<Array<string>>([]);
 
   return (
     <>
@@ -13,7 +14,8 @@ function App() {
         <Navbar />
         <main className="main-section">
           <MainHeader />
-          <PostInput />
+          <PostInput onPost={setPosts} />
+          <PostList posts={posts} />
         </main>
       </div>
     </>

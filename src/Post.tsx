@@ -5,7 +5,11 @@ import {
   shareSocialOutline,
 } from "ionicons/icons";
 
-function Post() {
+interface Props {
+  postBody: string;
+}
+
+function Post({ postBody }: Props) {
   return (
     <div className="full">
       <div className="post-body">
@@ -25,10 +29,7 @@ function Post() {
             </div>
             <p className="space gray">31 mins</p>
           </div>
-          <p className="user-post-text">
-            I seriously hate Javascript bruh I am actually losing my mind making
-            this project rn please get me out of here hoooooolly
-          </p>
+          <p className="user-post-text">{postBody}</p>
           <div className="post-icons">
             <div className="heart-container">
               <IonIcon icon={heartOutline} />
