@@ -7,7 +7,9 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <div className="grid">
+        <Navbar />
+      </div>
     </>
   );
 }

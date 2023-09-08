@@ -8,15 +8,15 @@ import {
   settingsOutline,
 } from "ionicons/icons";
 
+import user1 from "./assets/images/user1.jpg";
+import kitsune from "./assets/images/kitsune-logo.png";
+
+import "./Navbar.css";
+
 function Navbar() {
   return (
     <nav className="navbar">
-      <img
-        className="logo"
-        src="./assets/images/kitsune-logo.png"
-        width="500"
-        height="500"
-      />
+      <img className="logo" src={kitsune} width="500" height="500" />
       <div className="flex nav-icon">
         <IonIcon icon={homeOutline} />
         <p className="nav-text">Home</p>
@@ -40,12 +40,7 @@ function Navbar() {
       <div className="nav-bottom">
         <button className="write">Write</button>
         <div className="profile">
-          <img
-            className="nav-user user"
-            src="./assets/images/user1.jpg"
-            width="75"
-            height="75"
-          />
+          <img className="nav-user user" src={user1} width="75" height="75" />
           <div className="nav-names">
             <p className="username">sethonne</p>
             <p className="id">#69420</p>

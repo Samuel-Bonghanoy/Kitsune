@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #121b24;
+  font-family: "Inter";
+}
+
+body {
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 0.8fr 74rem 1fr;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
+
+textarea:focus {
+  border: none;
+  outline: none;
+}
+
+.inactive {
+  font-weight: 500;
+}
