@@ -1,33 +1,40 @@
 // import { useState } from "react";
 import { IonIcon } from "@ionic/react";
+import {
+  homeOutline,
+  mailOutline,
+  notificationsOutline,
+  personCircleOutline,
+  settingsOutline,
+} from "ionicons/icons";
 
 function Navbar() {
   return (
     <nav className="navbar">
       <img
         className="logo"
-        src="../images/kitsune-logo.png"
+        src="./assets/images/kitsune-logo.png"
         width="500"
         height="500"
       />
       <div className="flex nav-icon">
-        <IonIcon icon="home-outline" />
+        <IonIcon icon={homeOutline} />
         <p className="nav-text">Home</p>
       </div>
       <div className="flex nav-icon">
-        <IonIcon icon="mail-outline" />
+        <IonIcon icon={mailOutline} />
         <p className="nav-text">Messages</p>
       </div>
       <div className="flex nav-icon">
-        <IonIcon icon="notifications-outline" />
+        <IonIcon icon={notificationsOutline} />
         <p className="nav-text">Notifications</p>
       </div>
       <div className="flex nav-icon">
-        <IonIcon icon="person-circle-outline" />
+        <IonIcon icon={personCircleOutline} />
         <p className="nav-text">Profile</p>
       </div>
       <div className="flex nav-icon">
-        <IonIcon icon="settings-outline" />
+        <IonIcon icon={settingsOutline} />
         <span className="nav-text">Settings</span>
       </div>
       <div className="nav-bottom">
@@ -35,7 +42,7 @@ function Navbar() {
         <div className="profile">
           <img
             className="nav-user user"
-            src="../images/user1.jpg"
+            src="./assets/images/user1.jpg"
             width="75"
             height="75"
           />
