@@ -1,5 +1,6 @@
 // import { useState } from "react";
 import Navbar from "./Navbar";
+import MainHeader from "./MainHeader";
 import "./App.css";
 
 function App() {
@@ -9,6 +10,9 @@ function App() {
     <>
       <div className="grid">
         <Navbar />
+        <main className="main-section">
+          <MainHeader />
+        </main>
       </div>
     </>
   );

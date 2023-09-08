@@ -1,0 +1,13 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.main-nav ion-icon {
+  height: 2.5rem;
+  width: 2.5rem;
+}
