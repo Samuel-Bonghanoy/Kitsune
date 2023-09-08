@@ -1,6 +1,7 @@
 // import { useState } from "react";
 import Navbar from "./Navbar";
 import MainHeader from "./MainHeader";
+import PostInput from "./PostInput";
 import "./App.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Navbar />
         <main className="main-section">
           <MainHeader />
+          <PostInput />
         </main>
       </div>
     </>
