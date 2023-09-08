@@ -2,8 +2,13 @@
 
 A refactored version of my Nippon-Neon-Twitter-Clone repository
 
-<img src="./screenshots/login.png" width=800 height=450/>
-<img src="./screenshots/updated_home2.png" width=800 height=450/>
+## Images of Output
+
+<img src="./screenshots/output_with_likes.png" width=800 height=450/>
+<img src="./screenshots/modal_window.png" width=800 height=450/>
+<img src="./screenshots/output_with_comments.png" width=800 height=450/>
+
+## React + Vite + Typescript
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules
 
