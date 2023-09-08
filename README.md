@@ -1,6 +1,6 @@
 # Kitsune
 
-A refactored version of my Nippon-Neon-Twitter-Clone repository
+A refactored version of my Nippon-Neon-Twitter-Clone repository using the MERN stack
 
 ## Images of Output
 
