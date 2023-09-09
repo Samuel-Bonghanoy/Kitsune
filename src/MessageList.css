@@ -1,0 +1,15 @@
+.message {
+  display: flex;
+  gap: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  width: 90%;
+  border-bottom: 0.001px solid #343a40;
+}
+
+.message:hover {
+  background-color: rgba(255, 255, 255, 0.055);
+  /* border-radius: 100px; */
+}

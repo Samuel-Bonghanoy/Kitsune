@@ -1,5 +1,6 @@
 import Search from "./Search";
 import ContactList from "./ContactList";
+import MessageList from "./MessageList";
 import "./Aside.css";
 
 function Aside() {
@@ -7,6 +8,7 @@ function Aside() {
     <aside className="contacts-main">
       <Search />
       <ContactList />
+      <MessageList />
     </aside>
   );
 }
