@@ -1,0 +1,18 @@
+.contacts-title {
+  padding-top: 2rem;
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.contacts {
+  padding-top: 1.4rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+.contact-name {
+  padding-top: 0.5rem;
+  text-align: center;
+}
