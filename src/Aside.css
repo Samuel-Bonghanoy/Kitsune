@@ -1,0 +1,9 @@
+aside {
+  padding-top: 2rem;
+  padding-left: 4rem;
+  overflow-y: scroll;
+}
+
+aside::-webkit-scrollbar {
+  display: none;
+}

@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import MainHeader from "./MainHeader";
 import PostInput from "./PostInput";
 import PostList from "./PostList";
+import Aside from "./Aside";
 import "./App.css";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <PostInput onPost={setPosts} />
           <PostList posts={posts} />
         </main>
+        <Aside />
       </div>
     </>
   );
