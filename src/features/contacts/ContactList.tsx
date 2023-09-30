@@ -1,4 +1,5 @@
 import "./ContactList.css";
+import "../../ui/MessageList.css";
 
 import user3 from "../../assets/images/user3.jpg";
 
