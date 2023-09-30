@@ -21,10 +21,7 @@ const router = createBrowserRouter([
         path: "/user",
       },
       {
-        path: "/order/:orderId",
-      },
-      {
-        path: "/user/:id",
+        path: "/user/:userId",
       },
     ],
   },
