@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import AppLayout from "./ui/AppLayout";
 import Error from "./ui/Error";
+import PostList from "./features/posts/PostList";
 
 const router = createBrowserRouter([
   {
@@ -10,17 +11,20 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        // element:
+        element: <PostList />,
       },
       {
-        path: "/menu",
+        path: "/messages",
       },
-      { path: "/cart" },
+      { path: "/notification" },
       {
-        path: "/order/new",
+        path: "/user",
       },
       {
         path: "/order/:orderId",
+      },
+      {
+        path: "/user/:id",
       },
     ],
   },
