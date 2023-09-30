@@ -20,3 +20,16 @@
   padding-top: 0.5rem;
   text-align: center;
 }
+
+.username-post {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.user-post-text {
+  line-height: 2rem;
+}
+
+.gray {
+  color: #6f7781;
+}
