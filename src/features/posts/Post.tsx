@@ -5,7 +5,7 @@ import {
   shareSocialOutline,
 } from "ionicons/icons";
 
-import user1 from "./assets/images/user1.jpg";
+import user1 from "../../assets/images/user1.jpg";
 
 import "./Post.css";
 

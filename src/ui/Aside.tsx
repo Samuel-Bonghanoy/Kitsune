@@ -1,5 +1,5 @@
 import Search from "./Search";
-import ContactList from "./ContactList";
+import ContactList from "../features/contacts/ContactList";
 import MessageList from "./MessageList";
 import "./Aside.css";
 

@@ -1,7 +1,7 @@
 import { IonIcon } from "@ionic/react";
 import { chevronDownOutline, earthOutline } from "ionicons/icons";
 
-import user1 from "./assets/images/user1.jpg";
+import user1 from "../../assets/images/user1.jpg";
 
 import "./PostInput.css";
 

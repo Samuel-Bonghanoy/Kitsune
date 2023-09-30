@@ -1,27 +1,32 @@
-import { useState } from "react";
-import Navbar from "./Navbar";
-import MainHeader from "./MainHeader";
-import PostInput from "./PostInput";
-import PostList from "./PostList";
-import Aside from "./Aside";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
+import AppLayout from "./ui/AppLayout";
+import Error from "./ui/Error";
+
+const router = createBrowserRouter([
+  {
+    element: <AppLayout />,
+    errorElement: <Error />,
+    children: [
+      {
+        path: "/",
+      },
+      {
+        path: "/menu",
+      },
+      { path: "/cart" },
+      {
+        path: "/order/new",
+      },
+      {
+        path: "/order/:orderId",
+      },
+    ],
+  },
+]);
 
 function App() {
-  const [posts, setPosts] = useState<Array<string>>(["I hate JavaScript"]);
-
-  return (
-    <>
-      <div className="grid">
-        <Navbar />
-        <main className="main-section">
-          <MainHeader />
-          <PostInput onPost={setPosts} />
-          <PostList posts={posts} />
-        </main>
-        <Aside />
-      </div>
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

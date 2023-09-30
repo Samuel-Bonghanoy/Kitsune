@@ -1,6 +1,5 @@
-import user2 from "./assets/images/user2.jpg";
-import user3 from "./assets/images/user3.jpg";
-import "./MessageList.css";
+import user2 from "../assets/images/user2.jpg";
+import user3 from "../assets/images/user3.jpg";
 
 function MessageList() {
   return (

@@ -8,8 +8,8 @@ import {
   settingsOutline,
 } from "ionicons/icons";
 
-import user1 from "./assets/images/user1.jpg";
-import kitsune from "./assets/images/kitsune-logo.png";
+import user1 from "../assets/images/user1.jpg";
+import kitsune from "../assets/images/kitsune-logo.png";
 
 import "./Navbar.css";
 

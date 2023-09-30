@@ -1,6 +1,6 @@
 import "./ContactList.css";
 
-import user3 from "./assets/images/user3.jpg";
+import user3 from "../../assets/images/user3.jpg";
 
 function ContactList() {
   return (
